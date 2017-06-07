@@ -1,0 +1,27 @@
+
+" Change in single quotes
+noremap J ci'
+
+" Select all text
+map <Space>a ggVG
+
+
+" Enter the command-line mode
+noremap <CR> :
+
+" Reload .ideavimrc
+nnoremap <Space>vs :source ~/.ideavimrc<CR>
+
+" Copy until the end of the line
+noremap Y y$
+
+nnoremap / :action Find<CR>
+nnoremap n :action FindNext<CR>
+nnoremap N :action FindPrevious<CR>
+nnoremap U :action $Redo<CR>
+nnoremap ; :action AceJumpAction<CR>
+nnoremap <Space>O :action GotoClass<CR>
+nnoremap <Space>o :action GotoFile<CR>
+nnoremap <Space>d :action CloseContent<CR>
+nnoremap <Space>j :action RecentFiles<CR>
+nnoremap <Space>k :action FileStructurePopup<CR>
