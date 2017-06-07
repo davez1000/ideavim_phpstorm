@@ -19,7 +19,8 @@ nnoremap / :action Find<CR>
 nnoremap n :action FindNext<CR>
 nnoremap N :action FindPrevious<CR>
 nnoremap U :action $Redo<CR>
-nnoremap ; :action AceJumpAction<CR>
+" nnoremap ; :action AceJumpAction<CR>
+" nnoremap ; <C-;>
 nnoremap <Space>O :action GotoClass<CR>
 nnoremap <Space>o :action GotoFile<CR>
 nnoremap <Space>d :action CloseContent<CR>
