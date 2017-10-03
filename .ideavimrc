@@ -26,3 +26,6 @@ nnoremap <Space>o :action GotoFile<CR>
 nnoremap <Space>d :action CloseContent<CR>
 nnoremap <Space>j :action RecentFiles<CR>
 nnoremap <Space>k :action FileStructurePopup<CR>
+
+" Paste
+nnoremap ,p "0p
